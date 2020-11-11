@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=BenchNine&display=swap');
+body {font-family: 'BenchNine', sans-serif;
+width:650px;
+background:linear-gradient(to bottom right, #FFE2FF 0%, #FF94F8 68%);
+background-attachment: scroll;}
+
+
+.photos{Width:600px;}
+body{text-align:center;
+font-size: 24px;
+padding: 10px 375px 10px 375px}
+
+.about{text-align: left}
+.me{text-align: left;
+font-size: 28px;}
+
+a:link{
+	text-decoration:none;
+	background-color:#FF94F8;
+	color:#000;
+	display:inline;
+	text-align: center;}
+
+a:visited{color:#fff;
+	background-color:#FF94F8;
+}
+
+a:hover{text-decoration:line-through;
+	background-color:#FF4FF3;
+	color:#fff
+}
+
+nav li {display: inline;
+	padding: 1px 50px 1px 0px;
+}
+
+nav {text-align: center;
+font-size: 36px;
+background-color:#FF94F8;
+}
